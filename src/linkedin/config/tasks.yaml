@@ -17,11 +17,14 @@ linkedin_analysis_task:
 
 content_creation_task:
   description: >
-    Based on the insights and analysis, write LinkedIn blogs for the topic "{topic}", considering the current date {current_date}.
+    Based on the insights and analysis, write LinkedIn blogs tailored to Peter Mamdouh's
+    professional profile. Incorporate the following details:
+    - Expertise: "{expertise}"
+    - Preferred Tone: "{tone}"
     Each post should:
-    - Be concise, informative, and tailored to LinkedIn's audience.
-    - Include a recommended posting date and time.
-    - End with the text: "This post is created using agentic AI developed by Peter Mamdouh."
+    - Be concise, informative, and aligned with Peter's professional identity.
+    - Include a recommended posting date and time, considering current date {current_date}.
+    - End with the text: "This post is created using agentic AI script developed by Peter Mamdouh."
   expected_output: >
-    A set of LinkedIn blogs written in Markdown format, each including the recommended
-    posting date and time.
+    A set of LinkedIn blogs written in Markdown format, each personalized with Peter Mamdouh's
+    profile details, including recommended posting dates and times.

@@ -17,7 +17,9 @@ def run():
     """
     inputs = {
         'current_date': datetime.now().strftime('%Y-%m-%d'),
-        'topic': 'AI LLMs'
+        'topic': 'Artificial Intelligence in daily life',
+        'expertise': 'Data scientist consultant',
+        'tone': 'Professional yet conversational',
     }
     Linkedin().crew().kickoff(inputs=inputs)
 
