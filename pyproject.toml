@@ -1,0 +1,32 @@
+[project]
+name = "linkedin"
+version = "0.1.0"
+description = "linkedin using crewAI"
+authors = [{ name = "Peter Mamdouh", email = "you@example.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.86.0,<1.0.0"
+]
+
+[tool.poetry.scripts]
+linkedin = "linkedin.main:run"
+run_crew = "linkedin.main:run"
+train = "linkedin.main:train"
+replay = "linkedin.main:replay"
+test = "linkedin.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.poetry]
+name = "linkedin"
+version = "0.1.0"
+description = "A CrewAI project for growing LinkedIn accounts"
+authors = ["Peter Mamdouh"]
+license = ""
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = "*"
+

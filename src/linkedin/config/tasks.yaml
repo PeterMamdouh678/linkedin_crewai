@@ -1,0 +1,27 @@
+internet_research_task:
+  description: >
+    Conduct thorough research about the topic "{topic}" using reliable online resources.
+    Gather 5-10 key insights or points that summarize the most important information
+    about the topic.
+  expected_output: >
+    A list of 5-10 well-researched insights on the topic.
+
+linkedin_analysis_task:
+  description: >
+    Analyze trending LinkedIn blogs related to the topic "{topic}". Based on the market research,
+    recommend the optimal number of blogs for the week, along with the best days and times
+    to post for maximum engagement.
+  expected_output: >
+    A summary of trending LinkedIn blogs with success factors, and a list of recommended
+    posting dates and times for the week.
+
+content_creation_task:
+  description: >
+    Based on the insights and analysis, write LinkedIn blogs for the topic "{topic}", considering the current date {current_date}.
+    Each post should:
+    - Be concise, informative, and tailored to LinkedIn's audience.
+    - Include a recommended posting date and time.
+    - End with the text: "This post is created using agentic AI developed by Peter Mamdouh."
+  expected_output: >
+    A set of LinkedIn blogs written in Markdown format, each including the recommended
+    posting date and time.
